@@ -1,0 +1,111 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.visitor-registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.event-info-card {
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.event-info-card h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #343a40;
+  text-align: center;
+}
+
+/* Form styles */
+.update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.update-form label {
+  font-size: 1rem;
+  color: #495057;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.update-form input,
+.update-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.update-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.update-form input:focus,
+.update-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.update-form .required {
+  color: #dc3545;
+}
+
+.update-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .event-info-card {
+    padding: 15px;
+  }
+
+  .event-info-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .update-form label {
+    font-size: 0.9rem;
+  }
+
+  .update-form input,
+  .update-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .update-form button {
+    font-size: 0.9rem;
+  }
+}

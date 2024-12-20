@@ -1,0 +1,43 @@
+.visitor-registration {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .event-info-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 60%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .event-info-card h2 {
+    color: #003C43;
+  }
+  
+  .event-info-card p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .update-event-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #77B0AA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .update-event-button:hover {
+    background-color: #135D66;
+  }
+  

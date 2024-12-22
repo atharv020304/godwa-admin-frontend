@@ -41,12 +41,16 @@ const Event = () => {
       {eventDetails ? (
         <div className="event-info-card">
           <h2>Event Details</h2>
+          <p><strong>Event Name:</strong> {eventDetails.eventName}</p>
           <p><strong>Event Dates:</strong> {eventDetails.eventDates}</p>
           <p><strong>Event Timing:</strong> {eventDetails.eventTime}</p>
           <p><strong>Event Address:</strong> {eventDetails.eventAddress}</p>
 
           <Link to="/update-event" className="update-event-button">
             Update Event
+          </Link>
+          <Link to="/registerationdetails" className="update-event-button">
+            View Registerations
           </Link>
         </div>
       ) : (

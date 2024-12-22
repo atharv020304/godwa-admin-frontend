@@ -6,6 +6,7 @@ import Exhibition from './Pages/Exhibition.jsx';
 import ChangePassword from './Pages/ChangePassword.jsx';
 import Event from './Pages/Event.jsx';
 import UpdateEvent from './Pages/UpdateEvent.jsx';
+import RegisterationList from './Pages/RegisterationList.jsx';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/change-password" element={<ChangePassword />} />
           <Route path="/review-event" element={<Event />} />
           <Route path="/update-event" element={<UpdateEvent />} />
+          <Route path="/registerationdetails" element={<RegisterationList />} />
         </Routes>
       </div>
     </Router>

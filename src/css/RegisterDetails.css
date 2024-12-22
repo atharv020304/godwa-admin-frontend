@@ -1,0 +1,53 @@
+.registration-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .registration-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .registration-list table th,
+  .registration-list table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .registration-list table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .registration-list table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .registration-list table tr:hover {
+    background-color: #eaeaea;
+  }
+  
+  .registration-list p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .visitor-registration {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 20px;
+  }
+  
